@@ -1,0 +1,8 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack
+    disk_quota: 1024M
+    instances: 1
+    name: mailservice
+    path: target/MailService-0.0.1-SNAPSHOT.jar
